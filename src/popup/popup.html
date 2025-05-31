@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MergeMate AI</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-section">
+        <img src="../../icons/icon48.png" alt="MergeMate AI Logo" class="logo">
+        <h1>MergeMate AI</h1>
+      </div>
+      <button id="settingsButton" class="icon-button">
+        <img src="../../icons/settings.svg" alt="Settings">
+      </button>
+    </header>
+
+    <p class="description">Reviews GitLab merge requests and improves their meta information.</p>
+
+    <div class="stats">
+      <div class="stat-number">12</div>
+      <div class="stat-label">MRs Improved<br>This Week</div>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="improvementChart"></canvas>
+    </div>
+
+    <button id="improveButton" class="primary-button">Improve Current MR</button>
+  </div>
+</body>
+</html> 

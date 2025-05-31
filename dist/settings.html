@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MergeMate AI Settings</title>
+  <link rel="stylesheet" href="settings.css">
+<script defer src="settings.js"></script></head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title-section">
+        <img src="../icons/settings.svg" alt="Settings" class="settings-icon">
+        <h1>Settings</h1>
+      </div>
+    </header>
+
+    <div class="settings-form">
+      <div class="form-group">
+        <label for="apiKey">OpenAI API Key</label>
+        <div class="input-group">
+          <input type="password" id="apiKey" class="text-input" placeholder="••••••••••••••••••••••••••">
+          <button id="testApiKey" class="secondary-button">Test</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="prompt">Prompt</label>
+        <textarea id="prompt" class="text-area" rows="6"></textarea>
+      </div>
+
+      <button id="saveChanges" class="primary-button">Save Changes</button>
+    </div>
+  </div>
+</body>
+</html> 
